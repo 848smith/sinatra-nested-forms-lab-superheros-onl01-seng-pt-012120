@@ -9,5 +9,9 @@
   <h3>Hero Number 1</h3>
     <% @hero.each.with_index do |hero, index| %>
       <% if index == 0 %>
-  <p>Hero Name: <%= @hero.name %></p>
+  <p> Hero Name: <%= @hero.name %><br>
+      Hero Power: <%= @hero.power %><br>
+      Hero Biography: <%= @hero.bio %></p>
+  <h3>Hero Number 2</h3>
+  
 </body>
