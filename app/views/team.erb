@@ -5,7 +5,7 @@
 </head>
 <body>
   <h1>Here is the <%= @team.name %>!</h1>
-  <h2><%= @team.motto %></h2>
+  <h2>Team Motto: <%= @team.motto %></h2>
   <h3>Hero Number 1</h3>
     <% @hero.each.with_index do |hero, index| %>
       <% if index == 0 %>
